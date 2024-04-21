@@ -19,7 +19,7 @@ Para executar o crontab basta executar o comando `crontab -e` que vai abrir o ar
 - Executado a cada 2 horas nos minutos 10, 20 e 30 `10,20,30 */2 * * * * py backup.py`
 - Executado a cada segunda-feira às 09:37H  `37 9 * * 1 py backup.py`
 
-**Exemplo para criar uma automações simples**
+**Exemplo para criar uma automações simples para imprimir a data e hora atual**
 `*/2 * * * * echo $(date) >> /home/caminho/do/arquivoquedesejacriareaindanaoexiste/dois-minuto.txt` Assim quando rodar a primeira vez irá criar o arquivo, aperte ^X para salvar **S**, em seguida digite o comando `crontab -l` para verificar se o arquivo foi salvo. Caso deseje abra o arquivo em seu editor de código e verifique a execução. Desejando apagar o arquivo digite `crontab -r`. 
 
 
