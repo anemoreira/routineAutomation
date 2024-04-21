@@ -6,8 +6,7 @@ O cronJob é um utilitário do sistema Unix/Linux que permite agendar tarefas pa
 O cronJob é amplamente utilizado para automatizar tarefas recorrentes, como backup de arquivos, limpeza de logs, execução de scripts de manutenção, entre outros. Ele permite agendar a execução de comandos em intervalos regulares, diariamente, semanalmente ou mensalmente, de acordo com a necessidade.
 
 ### Comandos iniciais normalmente utilizados pelos usuários:
-<table border=\"1\"><tr><th align=\"right\">Comando</th><th align=\"left\">Função</th></tr><tr><td align=\"right\">`sudo service cron status`</td><td align=\"left\">Para verificar se o serviço está rodando</td></tr><tr><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table>
-
+<table border=\"1\"><tr><th align=\"right\">Comando</th><th align=\"left\">Função</th></tr><tr><td align=\"right\">`sudo service cron status`</td><td align=\"left\">Para verificar se o serviço está rodando</td></tr><tr><td align=\"right\">`sudo service cron start`</td>
 
 ## 🔎 Objetivo do script ? 
 - Importa os módulos necessários: os, glob e datetime.
