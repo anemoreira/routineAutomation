@@ -6,7 +6,8 @@ O cronJob é um utilitário do sistema Unix/Linux que permite agendar tarefas pa
 O cronJob é amplamente utilizado para automatizar tarefas recorrentes, como backup de arquivos, limpeza de logs, execução de scripts de manutenção, entre outros. Ele permite agendar a execução de comandos em intervalos regulares, diariamente, semanalmente ou mensalmente, de acordo com a necessidade.
 
 ### Comandos iniciais normalmente utilizados pelos usuários:
-<table border=\"1\"><tr><th align=\"right\">Comando</th><th align=\"left\">Função</th></tr><tr><td align=\"right\">`sudo service cron status`</td><td align=\"left\">Para verificar se o serviço está rodando</td></tr><tr><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table>
+<table border=\"1\"><tr><th align=\"right\">Comando</th><th align=\"left\">Função</th></tr><tr><td align=\"right\">`sudo service cron status`</td><td align=\"left\">Para verificar se o serviço está rodando</td></tr><tr><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table><td align=\"right\">`sudo service cron start`</td><td align=\"left\">Para iniciar o serviço cron</td></tr></table>
+
 
 ## 🔎 Objetivo do script ? 
 - Importa os módulos necessários: os, glob e datetime.
@@ -17,9 +18,9 @@ O cronJob é amplamente utilizado para automatizar tarefas recorrentes, como bac
 - Se sim, remove o arquivo.
 
 ## ⚙️ Como executar ?  
-Passo 1: Adicione o arquivo .py ao seu diretório/n 
-Passo 2: Verifique o caminho do seu arquivo, ex: `temp_directory = "/caminho/do/diretorio/de/temporarios`/n
-Passo 3: Execute o comando *Automatizando tarefa* de acordo com as especificações de *Como pode ser usado* /n
+- Passo 1: Adicione o arquivo .py ao seu diretório
+- Passo 2: Verifique o caminho do seu arquivo, ex: `temp_directory = "/caminho/do/diretorio/de/temporarios`
+- Passo 3: Execute o comando *Automatizando tarefa* de acordo com as especificações de *Como pode ser usado*
 
 ## Automatizando tarefa
 ```
