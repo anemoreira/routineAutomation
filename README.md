@@ -24,12 +24,7 @@ Para executar o crontab basta executar o comando `crontab -e` que vai abrir o ar
 
 
 ## 🔎 Objetivo do script deste repositório? 
-- Importa os módulos necessários: os, glob e datetime.
-- Define uma função chamada cleanup_temp_files que recebe dois argumentos: o diretório de arquivos temporários (temp_dir) e o limite de dias (days_threshold).
-- Obtém a data e hora atuais.
-- Itera sobre todos os arquivos no diretório de arquivos temporários.
-- Para cada arquivo, verifica se a última modificação foi há mais de days_threshold dias.
-- Se sim, remove o arquivo.
+- Definir uma função chamada cleanup_temp_files que recebe dois argumentos: o diretório de arquivos temporários (temp_dir) e o limite de dias (days_threshold), para obter a data e hora atual, iterando sobre todos os arquivos no diretório de arquivos temporários que verifica se a última modificação foi há mais de days_threshold dias para remover o arquivo.
 
 ## Comando para automatizar
 ```
